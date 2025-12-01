@@ -3,7 +3,7 @@ a = int(input("Enter a: "))
 num = 1
 result = []
 
-for _ in range(a):
+while num <= a:
     result.append(num)
     num += 2
 
